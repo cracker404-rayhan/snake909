@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #111111;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #ff0000;
+}
+
+#gameArea {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+#gameCanvas {
+    border: 2px solid rgb(172, 25, 25);
+    background-color: #dbcbcb;
+    width: 800%;
+    max-width: 400px;
+    height: auto;
+}
